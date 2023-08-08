@@ -1,0 +1,32 @@
+{
+    "labOrders": [
+        {
+            "LabGroup": "Serum",
+            "test": "GRBS",
+            "fullName": "Serum glucose",
+            "result": "6.5",
+            "type": "Numeric"
+        },
+        {
+            "LabGroup": "Blood",
+            "test": "Hgb",
+            "fullName": "Haemoglobin",
+            "result": "11",
+            "type": "Numeric"
+        },
+        {
+            "LabGroup": "Blood",
+            "test": "RDT Malaria",
+            "fullName": "RDT Malaria",
+            "result": "Positive",
+            "type": "Coded"
+        },
+        {
+            "LabGroup": "Urine",
+            "test": "Urine pH",
+            "fullName": "Urine pH",
+            "result": "6.5",
+            "type": "Numeric"
+        }
+    ]
+}

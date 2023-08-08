@@ -1,0 +1,23 @@
+{
+  "name": "gauge-taiko-template",
+  "description": "Starter template for writing JavaScript tests for Gauge",
+  "scripts": {
+    "local": "gauge run specs --env local -v -p --tags 'clinic'",
+    "ci": "gauge run specs/UI -v "
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "buffer": "latest",
+    "csvtojson": "latest",
+    "date-fns": "^2.30.0",
+    "json2csv": "latest",
+    "loadash": "^1.0.0",
+    "pdf-parse": "^1.1.1",
+    "supertest": "^6.3.3",
+    "taiko": "1.3.10",
+    "uuid": "latest"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}

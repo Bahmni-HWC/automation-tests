@@ -1,0 +1,9 @@
+{
+    "drug_name": "Paracetamol Tablet 650mg 1x10x10",
+    "units": "Tablet",
+    "dose": "1-1-1",
+    "duration": "7",
+    "durationUnits":"Days",
+    "route": "Oral",
+    "notes": "Twice a day for 7 days"
+}

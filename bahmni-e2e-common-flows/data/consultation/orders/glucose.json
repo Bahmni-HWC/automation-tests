@@ -1,0 +1,11 @@
+{
+    "labOrders": [
+        {
+            "LabGroup": "Serum",
+            "test": "glu",
+            "fullName": "Serum glucose",
+            "result": "6.5",
+            "type": "Numeric"
+        }
+    ]
+}

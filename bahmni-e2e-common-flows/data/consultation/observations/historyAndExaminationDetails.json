@@ -1,0 +1,11 @@
+{
+    "Chief_Complaints": [
+        {
+            "Chief_Complaint": "Abdominal pain",
+            "Sign_symptom_duration": "3",
+            "Units": "Days"
+        }
+    ],
+    "History_of_present_illness": "History of present illness - Automation testing",
+    "Smoking_status": "Former smoker"
+}

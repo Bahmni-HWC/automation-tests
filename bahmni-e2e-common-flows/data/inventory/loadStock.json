@@ -1,0 +1,21 @@
+{
+    "status": "NEW",
+    "attributes": [],
+    "items": [
+      {
+        "item": "",
+        "quantity": 0,
+        "expiration": "",
+        "batchNumber": "",
+        "calculatedExpiration": true
+      }
+    ],
+    "operationNumber": "",
+    "instanceType": "20f3734f-5b1a-490d-8676-1225a9cdddf7",
+    "operationDate": "",
+    "source": "",
+    "destination": "",
+    "institution": "",
+    "department": "",
+    "outwardId": ""
+  }

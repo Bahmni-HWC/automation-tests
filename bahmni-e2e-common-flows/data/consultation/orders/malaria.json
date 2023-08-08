@@ -1,0 +1,11 @@
+{
+    "labOrders": [
+        {
+            "LabGroup": "Blood",
+            "test": "RDT Malaria",
+            "fullName": "RDT Malaria",
+            "result": "Positive",
+            "type": "Coded"
+        }
+    ]
+}

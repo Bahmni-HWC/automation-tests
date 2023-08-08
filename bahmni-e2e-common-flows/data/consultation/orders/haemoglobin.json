@@ -1,0 +1,11 @@
+{
+    "labOrders": [
+        {
+            "LabGroup": "Blood",
+            "test": "Hgb",
+            "fullName": "Haemoglobin",
+            "result": "11",
+            "type": "Numeric"
+        }
+    ]
+}

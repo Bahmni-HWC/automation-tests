@@ -1,0 +1,26 @@
+# Open a patient in lablite
+* start patient search
+* enter the patient name in lablite
+* wait for overlay to disappear
+* Select the patient in lablite search result
+
+
+# Verify the open orders in Lablite
+* Verify test prescribed is displayed on Pending Lab Orders table
+
+# Upload report in Lablite
+* Select prescribed test in Pending Lab Orders table
+* Open upload report side panel
+* Select Lab Report in side panel
+* Select today's date in Report Date Field
+* Upload and verify the reports table
+
+# Upload and verify report in lablite
+* Upload report in Lablite
+* Verify the uploaded report
+
+# Verify lab-lite audit events
+* Verify Event "User <user> accessed lab entry module" in Audit log for the "doctor"
+* Verify Event "User <user> accessed lab dashboard for patient <patient>" in Audit log for the "doctor"
+* Verify Event "User <user> uploaded Lab report [<labReportFile>] for lab tests [<labTest>] for patient <patient>" in Audit log for the "doctor"
+* Verify Event "User <user> viewed lab report [<labReportFile>] dated <date> for lab tests [<labTest>] for patient <patient>" in Audit log for the "doctor"
