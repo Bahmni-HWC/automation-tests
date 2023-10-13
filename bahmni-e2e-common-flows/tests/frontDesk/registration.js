@@ -26,7 +26,9 @@ const {
     timeField,
     attach,
     fileField,
-    evaluate
+    evaluate,
+    switchTo,
+    closeTab
 } = require('taiko');
 var users = require("../util/users");
 var date = require("../util/date");
@@ -457,4 +459,6 @@ step("Get patient ID from patient dashboard", async function () {
 
 step("Click visit attributes link", async function () {
     await click(link("Visit Attributes"), { waitForNavigation: true, navigationTimeout: process.env.actionTimeout });
+    await switchTo(/registration/);
+    await closeTab(/clinical/);
 });
