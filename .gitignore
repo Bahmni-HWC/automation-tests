@@ -5,7 +5,7 @@
 logs
 
 # Gauge - reports dir
-reports
+/reports/
 
 # Gauge - JavaScript node dependencies
 node_modules
