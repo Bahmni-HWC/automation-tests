@@ -27,9 +27,10 @@ step("Enter Random Item Details in Load Stock popup", async function () {
 });
 async function enterItemName(itemName, index) {
 	await write(itemName, into($("//*[@id='stock-table-container']//tbody/tr[" + index + "]/td[2]//input")));
-	await scrollTo($("//*[normalize-space()='" + itemName + "' and @role = 'option']"));
-	await waitFor(() => $("//*[normalize-space()='" + itemName + "' and @role = 'option']").exists());
-	await click($("//*[normalize-space()='" + itemName + "' and @role = 'option']"));
+	var xpath = `//*[normalize-space()="${itemName}" and @role = "option"]`;
+	await scrollTo($(xpath));
+	await waitFor(() => $(xpath).exists());
+	await click($(xpath));
 }
 async function enterBatchNo(batchNo, index) {
 	await write(batchNo, into($("//*[@id='stock-table-container']//tbody/tr[" + index + "]/td[3]//input")));
