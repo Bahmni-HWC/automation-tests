@@ -458,9 +458,10 @@ step("Get patient ID from patient dashboard", async function () {
 });
 
 step("Click visit attributes link", async function () {
-    try { await click(link("Visit Attributes"), { waitForEvents: ['targetNavigated'] }); }
+    try { await click($("//A[normalize-space()='Visit Attributes']"), { waitForEvents: ['targetNavigated'] }); }
     catch (e) {
         console.log(e.message);
+        await click($("//A[normalize-space()='Visit Attributes']"));
     }
     await waitFor(1000)
     await switchTo(/registration/);
