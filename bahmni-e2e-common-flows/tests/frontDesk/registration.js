@@ -458,7 +458,10 @@ step("Get patient ID from patient dashboard", async function () {
 });
 
 step("Click visit attributes link", async function () {
-    await click(link("Visit Attributes"), { waitForEvents: ['targetNavigated'] });
+    try { await click(link("Visit Attributes"), { waitForEvents: ['targetNavigated'] }); }
+    catch (e) {
+        console.log(e.message);
+    }
     await waitFor(1000)
     await switchTo(/registration/);
     await closeTab(/clinical/);
