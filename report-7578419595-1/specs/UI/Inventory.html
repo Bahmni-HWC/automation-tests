@@ -31,13 +31,13 @@
    
   <div class="report_chart">
     <div class="chart">
-      <svg id="pie-chart" data-results="1,4,0" data-total="5">
+      <svg id="pie-chart" data-results="2,2,1" data-total="5">
         <path class="status failed" />
-        <path class="shadow failed" data-status="failed"><title>Failed: 1/5</title></path>
+        <path class="shadow failed" data-status="failed"><title>Failed: 2/5</title></path>
         <path class="status passed" />
-        <path class="shadow passed" data-status="passed"><title>Passed: 4/5</title></path>
+        <path class="shadow passed" data-status="passed"><title>Passed: 2/5</title></path>
         <path class="status skipped" />
-        <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/5</title></path>
+        <path class="shadow skipped" data-status="skipped"><title>Skipped: 1/5</title></path>
       </svg>
     </div>
   </div>
@@ -46,14 +46,14 @@
   <div class="report_test-results">
     <div class="report_test-result specs">
         <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">5</span></div>
-        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">1</span></div>
-        <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">4</span></div>
-        <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
+        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">2</span></div>
+        <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">2</span></div>
+        <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">1</span></div>
     </div>
     <div class="report_test-result scenarios">
-        <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">8</span></div>
-        <div class="fail scenario-stats" data-status="failed"><span class="value">1</span></div>
-        <div class="pass scenario-stats" data-status="passed"><span class="value">7</span></div>
+        <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">7</span></div>
+        <div class="fail scenario-stats" data-status="failed"><span class="value">2</span></div>
+        <div class="pass scenario-stats" data-status="passed"><span class="value">5</span></div>
         <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
     </div>
   </div>
@@ -73,15 +73,15 @@
     
     <li>
       <label>Success Rate </label>
-      <span>80%</span>
+      <span>40%</span>
     </li>
     <li>
       <label>Total Time </label>
-      <span>00:32:13</span>
+      <span>00:29:11</span>
     </li>
     <li>
       <label>Generated On </label>
-      <span>Jan 9, 2024 at 7:27am</span>
+      <span>Jan 19, 2024 at 7:28am</span>
     </li>
   </ul>
 
@@ -98,6 +98,22 @@
 
 
 	
+
+	
+		
+  <div class="error-container failed">
+    <div class="error-heading">After Suite Failed:<span class="error-message"> Runner is not Alive</span></div>
+    <div class="toggle-show">
+      [Show details]
+    </div>
+    <div class="exception-container hidden">
+      <div class="exception">
+        <pre class="stacktrace"></pre>
+      </div>
+      
+      
+    </div>
+  </div>
 
 	
 
@@ -118,12 +134,39 @@
       <div id="listOfSpecifications">
         <ul id="scenarios" class="spec-list">
         
+          <a href="PatientDocument.html">
+            
+              <li class="failed spec-name">
+            
+              <span id="scenarioName" class="scenarioname">Patient documents</span>
+              <span id="time" class="time">00:04:01</span>
+            </li>
+          </a>
+          
           <a href="Reports.html">
             
               <li class="failed spec-name">
             
               <span id="scenarioName" class="scenarioname">Reports Validation</span>
-              <span id="time" class="time">00:01:05</span>
+              <span id="time" class="time">00:02:18</span>
+            </li>
+          </a>
+          
+          <a href="labLite.html">
+             
+              <li class="skipped spec-name">
+            
+              <span id="scenarioName" class="scenarioname">Lab Lite</span>
+              <span id="time" class="time">00:00:00</span>
+            </li>
+          </a>
+          
+          <a href="Inventory.html">
+             
+              <li class="passed spec-name">
+            
+              <span id="scenarioName" class="scenarioname">Inventory</span>
+              <span id="time" class="time">00:07:47</span>
             </li>
           </a>
           
@@ -133,33 +176,6 @@
             
               <span id="scenarioName" class="scenarioname">Consultation</span>
               <span id="time" class="time">00:14:51</span>
-            </li>
-          </a>
-          
-          <a href="Inventory.html">
-             
-              <li class="passed spec-name">
-            
-              <span id="scenarioName" class="scenarioname">Inventory</span>
-              <span id="time" class="time">00:06:58</span>
-            </li>
-          </a>
-          
-          <a href="PatientDocument.html">
-             
-              <li class="passed spec-name">
-            
-              <span id="scenarioName" class="scenarioname">Patient documents</span>
-              <span id="time" class="time">00:03:49</span>
-            </li>
-          </a>
-          
-          <a href="labLite.html">
-             
-              <li class="passed spec-name">
-            
-              <span id="scenarioName" class="scenarioname">Lab Lite</span>
-              <span id="time" class="time">00:05:18</span>
             </li>
           </a>
           
@@ -191,7 +207,7 @@
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:06:58</span>
+        <span class="time">00:07:47</span>
       </div>
 
 	
@@ -239,7 +255,7 @@
   <div class="scenario-head">
     <h3 class="head borderBottom">Load a stock in Inventory</h3>
     
-    <span class="time">00:02:15</span>
+    <span class="time">00:03:24</span>
 
 	
   
@@ -867,7 +883,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:44</span>
+      <span class="time">Execution Time : 00:01:53</span>
     </h5>
   
   <div class="step-info passed">
@@ -1013,7 +1029,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:25</span>
+      <span class="time">Execution Time : 00:00:16</span>
     </h5>
   
   <div class="step-info passed">
@@ -1153,7 +1169,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:05</span>
+      <span class="time">Execution Time : 00:00:15</span>
     </h5>
   
   <div class="step-info passed">
@@ -1189,8 +1205,12 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>validating Oseltamavir Capsule 45mg 1x10 with 568 with 04-07-2026 with 912474344191</p>
- </div><div class="step-message"><p>validating Acetazolamide Tablet 250mg 1x10x10 with 937 with 17-10-2028 with 912474344192</p>
+        <div class="step-message"><p>validating Tropicamide Eye Drop 0.50% 1x5ml with 946 with 07-04-2029 with 1912474424492</p>
+ </div><div class="step-message"><p>validating VitaminA+VitB+Vit C+VitB2+VitB12+Lysine+Choline+VitE Drops 30ml 1x1 with 890 with 09-02-2025 with 1912474424492</p>
+ </div><div class="step-message"><p>validating CHLORPROMAZINE Tablet 200mg 1x10x10 with 308 with 25-06-2025 with 1912474424492</p>
+ </div><div class="step-message"><p>validating Naloxone Injection 0.4mg/ml 1x2ml with 523 with 15-11-2027 with 1912474424492</p>
+ </div><div class="step-message"><p>validating Polypropylene (<sup>1</sup>⁄<sub>2</sub> Cir RB Needle 30mm, Length 90 cm) NA <sup>1</sup>⁄<sub>0</sub> 12 Foils with 941 with 20-06-2025 with 1912474424493</p>
+ </div><div class="step-message"><p>validating FCM (Feric Carboxy Maltose) Injection 500mg 1x10ml Vial with 45 with 31-10-2028 with 1912474424493</p>
  </div>
       </div>
     </div>
@@ -1239,7 +1259,7 @@
   <div class="scenario-head">
     <h3 class="head borderBottom">Dispense a stock from Inventory</h3>
     
-    <span class="time">00:03:39</span>
+    <span class="time">00:03:20</span>
 
 	
   
@@ -1662,7 +1682,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:48</span>
+      <span class="time">Execution Time : 00:00:49</span>
     </h5>
   
   <div class="step-info passed">
@@ -1799,7 +1819,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:21</span>
+      <span class="time">Execution Time : 00:00:22</span>
     </h5>
   
   <div class="step-info passed">
@@ -1930,7 +1950,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>firstName Manoj</p>
+        <div class="step-message"><p>firstName Bhishma</p>
  </div>
       </div>
     </div>
@@ -2001,7 +2021,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>middleName Reign</p>
+        <div class="step-message"><p>middleName Corey</p>
  </div>
       </div>
     </div>
@@ -2072,7 +2092,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>lastName Verma</p>
+        <div class="step-message"><p>lastName Trivedi</p>
  </div>
       </div>
     </div>
@@ -2214,7 +2234,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>age 73</p>
+        <div class="step-message"><p>age 75</p>
  </div>
       </div>
     </div>
@@ -2285,7 +2305,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>buildingNumber 531</p>
+        <div class="step-message"><p>buildingNumber 34530</p>
  </div>
       </div>
     </div>
@@ -2356,7 +2376,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>localitySector Suite 557</p>
+        <div class="step-message"><p>localitySector Suite 647</p>
  </div>
       </div>
     </div>
@@ -2490,7 +2510,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>pinCode 569372</p>
+        <div class="step-message"><p>pinCode 561388</p>
  </div>
       </div>
     </div>
@@ -2561,7 +2581,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>mobile 9213271812</p>
+        <div class="step-message"><p>mobile 9463488588</p>
  </div>
       </div>
     </div>
@@ -2632,7 +2652,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>emailAddress Bharadwaj.Joshi36@hotmail.com</p>
+        <div class="step-message"><p>emailAddress Tanirika.Mukhopadhyay@yahoo.co.in</p>
  </div>
       </div>
     </div>
@@ -2934,7 +2954,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>patient Identifier KA500819</p>
+        <div class="step-message"><p>patient Identifier KA500876</p>
  </div>
       </div>
     </div>
@@ -3105,7 +3125,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:20</span>
+      <span class="time">Execution Time : 00:00:21</span>
     </h5>
   
   <div class="step-info passed">
@@ -3296,7 +3316,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:03</span>
+      <span class="time">Execution Time : 00:00:04</span>
     </h5>
   
   <div class="step-info passed">
@@ -3359,7 +3379,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:18</span>
+      <span class="time">Execution Time : 00:00:19</span>
     </h5>
   
   <div class="step-info passed">
@@ -3797,7 +3817,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:25</span>
+      <span class="time">Execution Time : 00:00:15</span>
     </h5>
   
   <div class="step-info passed">
@@ -3937,7 +3957,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:20</span>
+      <span class="time">Execution Time : 00:00:10</span>
     </h5>
   
   <div class="step-info passed">
@@ -4014,7 +4034,7 @@
   <div class="scenario-head">
     <h3 class="head borderBottom">Load more than 50 items to the stock room and verify all the items are displayed in the inventory page</h3>
     
-    <span class="time">00:01:03</span>
+    <span class="time">00:01:02</span>
 
 	
   
@@ -4563,7 +4583,7 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:18</span>
+      <span class="time">Execution Time : 00:00:17</span>
     </h5>
   
   <div class="step-info passed">
