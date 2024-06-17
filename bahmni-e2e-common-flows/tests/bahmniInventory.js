@@ -261,6 +261,6 @@ step("Verify all stock room items are displayed in the inventory page", async fu
 	var allStocks = allItemsResponse.body.results;
 	for (var stock of allStocks) {
 		assert.ok((await (link(stock.item.name)).elements()).length === 1, "Item " + stock.item.name + " is not displayed in the inventory page");
-		assert.equal((await ($("(//TD[normalize-space()='" + stock.item.name + "']/following::TD)[1]").text())), stock.quantity.toString(), "Quantity of " + stock.item.name + " is not displayed correctly in the inventory page");
+		assert.equal((await ($(`(//TD[normalize-space()="${stock.item.name}"]/following::TD)[1]`).text())), stock.quantity.toString(), "Quantity of " + stock.item.name + " is not displayed correctly in the inventory page");
 	}
 });
